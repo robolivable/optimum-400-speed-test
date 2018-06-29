@@ -1,0 +1,14 @@
+{
+  "name": "optimum-400-speed-test",
+  "description": "Bot to tweet speed test results",
+  "author": "Rob",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"no tests yet!\""
+  },
+  "main": "index.js",
+  "dependencies": {
+    "speedtest-net": "^1.4.3",
+    "twitter": "^1.7.1"
+  }
+}

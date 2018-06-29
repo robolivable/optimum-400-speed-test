@@ -1,6 +1,6 @@
 const Twitter = require('twitter')
 const speed_test = require('speedtest-net')
-const test = speed_test({maxTime: 5000})
+const test = speed_test({maxTime: process.env.MAX_TIME})
 
 const consumer_key = process.env.TWITTER_CONSUMER_KEY
 const consumer_secret = process.env.TWITTER_CONSUMER_SECRET
